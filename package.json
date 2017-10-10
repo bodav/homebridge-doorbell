@@ -9,5 +9,8 @@
     "homekit"
   ],
   "author": "bodav",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "rpi-gpio": "^0.9.1"
+  }
 }
