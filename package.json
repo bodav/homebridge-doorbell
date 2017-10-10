@@ -1,0 +1,13 @@
+{
+  "name": "homebridge-doorbell",
+  "version": "1.0.0",
+  "description": "homebridge gpio doorbell plugin",
+  "main": "index.js",
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "homekit"
+  ],
+  "author": "bodav",
+  "license": "ISC"
+}
