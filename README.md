@@ -5,7 +5,7 @@ homebridge-doorbell
 ## Installation
 
 ```
-npm install -g bodav/homebridge-doorbell"
+npm install -g bodav/homebridge-doorbell
 ```
 
 ## Homebridge Config.json
