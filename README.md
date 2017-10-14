@@ -5,7 +5,7 @@ homebridge-doorbell
 ## Installation
 
 ```
-npm install -g "githubrepo"
+npm install -g bodav/homebridge-doorbell"
 ```
 
 ## Homebridge Config.json
