@@ -10,7 +10,7 @@ module.exports = function (homebridge) {
     HomebridgeAPI = homebridge;
 
     homebridge.registerAccessory("homebridge-doorbell",
-        "doorbell", Doorbell);
+        "DOORBELL", Doorbell);
 };
 
 function Doorbell(log, config) {
@@ -28,6 +28,8 @@ function Doorbell(log, config) {
             that.log("Error setting up gpio pin: " + that.pin);
             that.log(err);
         }
+
+        that.log("GPIO setup completed");
 
         gpio.on("change", function (channel, val) {
             that.gpioChange(that, channel, val);
