@@ -16,7 +16,7 @@ module.exports = function (homebridge) {
 function Doorbell(log, config) {
     this.log = log;
     this.name = config.name;
-    this.pin = conig.pin;
+    this.pin = config.pin;
     this.reset = config.reset || 4500;
     this.timeout = null;
     this.bellDetected = false;

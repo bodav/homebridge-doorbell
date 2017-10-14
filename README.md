@@ -14,10 +14,10 @@ npm install -g bodav/homebridge-doorbell
 "accessories" : [
     
     {
-        "accessory": "doorbell",
+        "accessory": "DOORBELL",
         "name": "Front door",
         "pin": 7,
-        "reset": 4500,
+        "reset": 4500
     }
 ]    
 ```
