@@ -9,17 +9,17 @@
     "homekit"
   ],
   "repository": {
-		"type": "git",
-		"url": "git+https://github.com/bodav/homebridge-doorbell.git"
-	},
+    "type": "git",
+    "url": "git+https://github.com/bodav/homebridge-doorbell.git"
+  },
   "author": "bodav",
   "license": "ISC",
   "dependencies": {
-    "rpi-gpio": "^0.9.1"
+    "rpi-gpio": "^2.1.3"
   },
   "homepage": "https://github.com/bodav/homebridge-doorbell",
-	"engines" : {
-	    "node": ">=0.12.0",
-	    "homebridge": ">=0.2.0"
-	}
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  }
 }
